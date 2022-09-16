@@ -130,9 +130,9 @@
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
+      typeSpeed: 70,
+      backSpeed: 25,
+      backDelay: 100
     });
   }
 
@@ -143,7 +143,7 @@
   if (skilsContent) {
     new Waypoint({
       element: skilsContent,
-      offset: '80%',
+      offset: '82%',
       handler: function(direction) {
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
@@ -194,7 +194,7 @@
    * Portfolio details slider
    */
   new Swiper('.portfolio-details-slider', {
-    speed: 400,
+    speed: 600,
     loop: true,
     autoplay: {
       delay: 5000,
@@ -241,11 +241,13 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
+      duration: 1500,
+      easing: 'easy-in',
       once: true,
       mirror: false
     })
   });
 
 })()
+
+

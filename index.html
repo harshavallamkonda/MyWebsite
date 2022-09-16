@@ -4,10 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <script src="https://cdn.html.games.alexa.a2z.com/alexa-html/latest/alexa-html.js"></script>
   <title>Harsha's Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
 
   <!-- Favicons -->
   <link href="" rel="icon">
@@ -33,6 +34,20 @@
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
+  <script>
+    function darkMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "dark-mode";
+      content.innerText = "Dark Mode is ON";
+    }
+    function lightMode() {
+      var element = document.body;
+      var content = document.getElementById("DarkModetext");
+      element.className = "light-mode";
+      content.innerText = "Dark Mode is OFF";
+    }
+  </script>
 
   
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -40,6 +55,7 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="d-flex flex-column">
+
 
       <div class="profile">
         <img src="assets/img/Insta DP-1.jpg" alt="" class="img-fluid rounded-circle">
@@ -401,6 +417,7 @@
                         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
               <div class="elfsight-app-03feaf52-094b-4a71-a0c7-7acf1fcdf661"></div>
 
+
           </div>
 
   </main><!-- End #main -->
@@ -415,6 +432,12 @@
         Designed by <a href="https://www.linkedin.com/in/harsha-vallamkonda-706a09190/">Harsha Vallamkonda</a>
       </div>
     </div>
+
+    <!-- Dark and light mode buttons-->
+    <button  class = "rock1" onclick="darkMode()">Darkmode</button>
+    <button  class = "rock2" onclick="lightMode()">LightMode</button>
+
+
   </footer><!-- End  Footer -->
 
   <!--<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -431,9 +454,12 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <audio src="HarshaWebsite/assets/img/in-the-forest-ambient-acoustic-guitar-instrumental-background-music-for-videos-5718.mp3"></audio> 
+
+ 
 
 </body>
 
