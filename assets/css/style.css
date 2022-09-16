@@ -340,7 +340,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #179bcf;
 }
 
 .section-title h2::after {
@@ -481,13 +481,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #050d18;
+  color: #173b6c;
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #173b6c;
   position: relative;
 }
 
@@ -497,8 +497,9 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #c28543;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .resume .resume-item h5 {
@@ -508,6 +509,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .resume .resume-item ul {
@@ -737,7 +739,7 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #149ddd
 }
 
 .services .title a:hover {
