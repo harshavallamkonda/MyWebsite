@@ -4,6 +4,10 @@ on:
   pull_request:
     branches: [ develop, main ]
 
+
+script:
+    - npm install --save-dev htmlhint
+    - npx htmlhint "dist/**/*.html"
 jobs:
   check-php:
     runs-on: ubuntu-latest
